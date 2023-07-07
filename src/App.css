@@ -1,24 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+#blog-container {
+  padding: 1rem;
+}
+
 .progress {
-    border: 1px solid black;
-    background: mistyrose;
-    padding: 1em 1.5em;
-    border-radius: 25px;
-    position: fixed;
+  border: 1px solid rgba(0, 0, 0, 0.566);
+  background: rgba(255, 228, 225, 0.566);
+  padding: 0.25em 0.5em;
+  border-radius: 10px;
+  position: fixed;
 }
 
 .footer-progress {
-    border: 1px solid black;
-    background: mistyrose;
-    padding: 1em 1.5em;
-    border-radius: 25px;
+  border: 1px solid black;
+  background: mistyrose;
+  padding: 1em 1.5em;
+  border-radius: 25px;
 }
 
 .content {
-    width: 80%;
-    max-width: 1100px;
-    margin-inline: auto;
+  width: 80%;
+  max-width: 1100px;
+  margin-inline: auto;
 }
 
 .render {
-    text-align: center;
+  text-align: center;
 }
