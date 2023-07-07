@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { posts } from "../data/posts";
 import PostCard from "../components/PostCard";
 import BlogLayout from "../components/BlogLayout";

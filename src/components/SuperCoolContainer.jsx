@@ -1,5 +1,3 @@
-import WordList from "./WordList";
-
 export default function SuperCoolContainer({ children }) {
   return (
     <section>

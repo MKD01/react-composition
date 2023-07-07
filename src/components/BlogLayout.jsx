@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { posts } from "../data/posts";
-import PostCard from "./PostCard";
 
 export default function BlogLayout({ children }) {
   const [progress, setProgress] = useState(0);
